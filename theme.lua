@@ -7,7 +7,7 @@ function module.apply_to_config(config)
 
 	config.font_dirs = { "C:/Windows/Fonts" }
 	config.tab_max_width = 4
-	config.font = wezterm.font({ family = "JetBrains Mono", weight = "Bold" })
+	config.font = wezterm.font({ family = "JetBrains Mono" })
 
 	-- config.color_scheme = "Rosé Pine Dawn (base16)"
 	config.color_scheme = "Catppuccin Macchiato"
