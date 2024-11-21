@@ -8,13 +8,14 @@ function module.apply_to_config(config)
 	config.font_dirs = { "C:/Windows/Fonts" }
 	config.tab_max_width = 4
 	config.font = wezterm.font({ family = "JetBrains Mono" })
+	config.font_size = 10.0
 
 	-- config.color_scheme = "Rosé Pine Dawn (base16)"
 	config.color_scheme = "Catppuccin Macchiato"
 
 	-- Acrylic Style
-	-- config.window_background_opacity = 0
-	-- config.win32_system_backdrop = "Acrylic"
+	config.window_background_opacity = 0.9
+	config.win32_system_backdrop = "Acrylic"
 
 	-- config tabbar
 	config.tab_bar_at_bottom = true

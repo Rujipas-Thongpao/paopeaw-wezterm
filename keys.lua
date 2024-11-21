@@ -85,5 +85,8 @@ function module.apply_to_config(config)
 			action = wezterm.action.ActivateTab(i),
 		})
 	end
+	-- config.keys = {
+	-- 	{ key = "=", mods = "CTRL", action = wezterm.action.IncreaseFontSize },
+	-- }
 end
 return module
